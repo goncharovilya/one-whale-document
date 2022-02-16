@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper,
+.wrapper-mobile {
+    height: 100%;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 963px;
+    padding: 68px 16px 29px;
+}
+.logo {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+.page-title {
+    font-weight: 500 !important;
+    font-size: 18px;
+    line-height: 21px;
+}
+.title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #24478A;
+    display: inline;
+    margin-right: 10px;
+}
+.date-value {
+    display: inline;
+    font-size: 18px;
+    line-height: 21px;
+}
+.info {
+    margin: 61px 0 23px;
+}
+.info__title {
+    margin-bottom: 23px;
+}
+.info p + p{
+    margin-top: 8px;
+}
+.services {
+    margin-bottom: 18px;
+}
+.services__title {
+    margin-bottom: 17px;
+}
+.services__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.services__table th {
+    font-weight: 400;
+    padding: 8px 0 6px;
+}
+.services__table thead th {
+    padding: 0;
+}
+.services__table thead tr {
+    border-top: 0;
+}
+.services__table tr {
+    border-top: 0.3px solid #24478A;
+}
+.first-column {
+    text-align: left;
+    max-width: 525px;
+}
+.results {
+    background-color: rgba(36, 71, 138, 0.3);
+}
+.manager p + p {
+    margin-top: 2px;
+}
+.manager__title {
+    margin-bottom: 12px;
+}
+.page-qrcode {
+    position: absolute;
+    right: 27px;
+    bottom: 13px;
+}
+
+/* MOBILE */
+
+.wrapper-mobile {
+    width: 360px;
+    padding: 26px 18px 20px;
+}
+.page-title-mobile {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500 !important;
+}
+.title-mobile {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #24478A;
+}
+.logo-mobile {
+    top: 18px;
+    right: 6px;
+    position: absolute;
+}
+.info.info-mobile {
+    margin: 44px 0 33px
+}
+.services p + p {
+    margin-top: 10px;
+}
+.services-mobile {
+    margin-bottom: 35px;
+}
+.result {
+    font-weight: 500;
+}
+.manager.manager-mobile h2 {
+    margin-bottom: 15px;
+}
+.manager.manager-mobile p + p {
+    margin-top: 10px;
+}
+.date-mobile {
+    font-weight: 500;
+    margin-top: 27px !important;
+}
+.date-mobile .date-value {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
